@@ -40,5 +40,11 @@ public class DeckTest {
         assertEquals(RankType.KING, deck.getCards().get(51).getRank());
     }
 
-
+    @Test
+    public void canDealCard() {
+        deck.setUpCards();
+        Card card = deck.getCards().get(51);
+        assertEquals(card, deck.dealCard());
+        assertEquals(51, deck.countCards());
+    }
 }
