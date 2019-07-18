@@ -34,4 +34,8 @@ public class Deck {
     public Card dealCard() {
         return this.cards.remove(countCards() - 1);
     }
+
+    public void addCard(Card card) {
+        this.cards.add(card);
+    }
 }

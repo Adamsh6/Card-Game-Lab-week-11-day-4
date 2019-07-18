@@ -47,4 +47,11 @@ public class DeckTest {
         assertEquals(card, deck.dealCard());
         assertEquals(51, deck.countCards());
     }
+
+    @Test
+    public void deckGetsCardsBack() {
+        Card card = new Card(SuitType.HEARTS, RankType.QUEEN);
+        deck.addCard(card);
+        assertEquals(1, deck.countCards());
+    }
 }

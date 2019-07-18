@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc16ce96-6f61-4e63-9891-6f106e2385bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="76">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
@@ -109,8 +111,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="333">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+              <folding>
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="201">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#302#310#0" expanded="true" />
@@ -140,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="277">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
@@ -156,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="347">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
@@ -168,6 +174,8 @@
                 <element signature="e#630#631#0" expanded="true" />
                 <element signature="e#681#682#0" expanded="true" />
                 <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,13 +202,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Type.java" />
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/java/RankType.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Game.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/java/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game.java" />
       </list>
     </option>
   </component>
@@ -268,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563455177830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563456539050" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,22 +290,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.checkRoundWinnerP1Win">
-    <configuration name="GameTest.canCardsBeDealt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GameTest.canGetGameWinner">
+    <configuration name="DeckTest.deckGetsCardsBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Enums" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="canCardsBeDealt" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="deckGetsCardsBack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.checkRoundWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canGetGameWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Enums" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="checkRoundWinner" />
+      <option name="METHOD_NAME" value="canGetGameWinner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canPutCardsBackInDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Enums" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="canPutCardsBackInDeck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canRunTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Enums" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="canRunTurn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,33 +341,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.checkRoundWinnerP2Win" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Enums" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="checkRoundWinnerP2Win" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.removeAPlayersCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Enums" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="removeAPlayersCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.canGetGameWinner" />
+        <item itemvalue="JUnit.GameTest.canRunTurn" />
+        <item itemvalue="JUnit.GameTest.canPutCardsBackInDeck" />
+        <item itemvalue="JUnit.DeckTest.deckGetsCardsBack" />
         <item itemvalue="JUnit.GameTest.checkRoundWinnerP1Win" />
-        <item itemvalue="JUnit.GameTest.checkRoundWinnerP2Win" />
-        <item itemvalue="JUnit.GameTest.checkRoundWinner" />
-        <item itemvalue="JUnit.GameTest.canCardsBeDealt" />
-        <item itemvalue="JUnit.PlayerTest.removeAPlayersCard" />
       </list>
     </recent_temporary>
   </component>
@@ -357,21 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeckTest_canDealCard - 2019.07.18 at 11h 50m 26s.xml">
-      <configuration name="DeckTest.canDealCard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_playerHasNoCards - 2019.07.18 at 12h 55m 45s.xml">
-      <configuration name="PlayerTest.playerHasNoCards" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_pointsStartAtZero - 2019.07.18 at 12h 58m 42s.xml">
-      <configuration name="PlayerTest.pointsStartAtZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest_doesIncludeTheAceHeartsAtPosition0 - 2019.07.18 at 12h 59m 01s.xml">
-      <configuration name="DeckTest.doesIncludeTheAceHeartsAtPosition0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_incrementPoints - 2019.07.18 at 13h 01m 33s.xml">
-      <configuration name="PlayerTest.incrementPoints" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_playerGetsACard - 2019.07.18 at 13h 05m 51s.xml">
       <configuration name="PlayerTest.playerGetsACard" configurationId="JUnit" />
     </history-entry>
@@ -386,6 +379,21 @@
     </history-entry>
     <history-entry file="GameTest_checkRoundWinner - 2019.07.18 at 14h 00m 50s.xml">
       <configuration name="GameTest.checkRoundWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkRoundWinnerP2Win - 2019.07.18 at 14h 04m 53s.xml">
+      <configuration name="GameTest.checkRoundWinnerP2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkRoundWinnerP2Win - 2019.07.18 at 14h 06m 21s.xml">
+      <configuration name="GameTest.checkRoundWinnerP2Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_checkRoundWinnerP1Win - 2019.07.18 at 14h 07m 04s.xml">
+      <configuration name="GameTest.checkRoundWinnerP1Win" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_deckGetsCardsBack - 2019.07.18 at 14h 15m 18s.xml">
+      <configuration name="DeckTest.deckGetsCardsBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_canPutCardsBackInDeck - 2019.07.18 at 14h 23m 41s.xml">
+      <configuration name="GameTest.canPutCardsBackInDeck" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -424,24 +432,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SuitType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -478,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -504,21 +480,6 @@
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,17 +505,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="333">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        <state relative-caret-position="201">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#302#310#0" expanded="true" />

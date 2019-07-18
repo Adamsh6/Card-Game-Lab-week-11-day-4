@@ -12,6 +12,10 @@ public class Game {
         this.deck.shuffle();
     }
 
+    public Deck getDeck() {
+        return deck;
+    }
+
     public void dealCards() {
         for(Player player: this.players){
             Card card = this.deck.dealCard();
@@ -28,6 +32,31 @@ public class Game {
             }
         }
         currentHighest.addPoint();
+        return currentHighest;
+    }
+
+    public void returnCards() {
+        for(Player player : this.players){
+            Card card = player.removeCard();
+            this.deck.addCard(card);
+        }
+    }
+
+    public void runRound() {
+        dealCards();
+        checkRoundWinner();
+        returnCards();
+        this.deck.shuffle();
+    }
+
+    public Player checkGameWinner() {
+        Player currentHighest = this.players.get(0);
+        for(int i = 1 ; i < this.players.size(); i++){
+            Player player = this.players.get(i);
+            if (currentHighest.getPoints() < player.getPoints()){
+                currentHighest = player;
+            }
+        }
         return currentHighest;
     }
 }
